@@ -4,8 +4,8 @@ It writes exams.
 
 ## Requirements
 
-* Ruby 2.0.0
-* Postgres
+* Ruby 2.7.1
+* mysql
 
 We use `rbenv` in development and Homebrew for package management, but you can do whatever you like.
 
@@ -15,7 +15,7 @@ We use `rbenv` in development and Homebrew for package management, but you can d
 2. Create the database: `bin/rake db:create`
 3. Load the schema: `bin/rake db:schema:load`
 4. Run the tests: `bundle exec rspec`
-5. Run the server: `bundle exec unicorn -c config/unicorn.rb`
+5. Run the server: `bundle exec rails s`
 
 ## TODOS
 

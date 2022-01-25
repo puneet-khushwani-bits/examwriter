@@ -23,6 +23,6 @@ describe TrueFalseQuestion do
   describe "#true_false?" do
     subject { question.true_false? }
 
-    it { should be_true }
+    it { should be_truthy }
   end
 end

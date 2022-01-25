@@ -23,6 +23,6 @@ describe MultipleChoiceQuestion do
   describe "#multiple_choice?" do
     subject { question.multiple_choice? }
 
-    it { should be_true }
+    it { should be_truthy }
   end
 end

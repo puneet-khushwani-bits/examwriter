@@ -46,12 +46,12 @@ describe Question do
   describe "#true_false?" do
     subject { question.true_false? }
 
-    it { should be_false }
+    it { should be_falsey }
   end
 
   describe "#multiple_choice?" do
     subject { question.multiple_choice? }
 
-    it { should be_false }
+    it { should be_falsey }
   end
 end
